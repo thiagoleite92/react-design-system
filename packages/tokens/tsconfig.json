@@ -1,0 +1,4 @@
+{
+  "extends": "@thiagoleite-ui/ts-config/base.json",
+  "include": ["src"]
+}
