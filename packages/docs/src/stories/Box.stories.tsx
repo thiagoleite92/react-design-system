@@ -1,15 +1,11 @@
-import { Box, BoxProps } from '@thiagoleite-ui/react';
+import { Box, BoxProps, Text } from '@thiagoleite-ui/react';
 import { Meta, StoryObj } from '@storybook/react';
 
 export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    children: (
-      <>
-        <span>Testando elemento Box</span>
-      </>
-    ),
+    children: <Text>Testando elemento Box</Text>,
   },
 } as Meta<BoxProps>;
 
