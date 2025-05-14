@@ -17,6 +17,7 @@ export default {
       );
     },
   ],
+  tags: ['autodocs'],
 } as Meta<CheckboxProps>;
 
 export const Primary: StoryObj<CheckboxProps> = {};

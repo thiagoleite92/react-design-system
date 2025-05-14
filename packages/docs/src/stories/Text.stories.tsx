@@ -7,6 +7,7 @@ export default {
   args: {
     children: 'Example Text',
   },
+  tags: ['autodocs'],
 } as Meta<TextProps>;
 
 export const Primary: StoryObj<TextProps> = {};

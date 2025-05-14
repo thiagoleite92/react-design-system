@@ -8,6 +8,7 @@ export default {
     src: 'https://github.com/thiagoleite92.png',
     alt: 'Thiago Leite',
   },
+  tags: ['autodocs'],
 } as Meta<AvatarProps>;
 
 export const Primary: StoryObj<AvatarProps> = {};

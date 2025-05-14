@@ -7,6 +7,7 @@ export default {
   args: {
     children: <Text>Testando elemento Box</Text>,
   },
+  tags: ['autodocs'],
 } as Meta<BoxProps>;
 
 export const Primary: StoryObj<BoxProps> = {};
